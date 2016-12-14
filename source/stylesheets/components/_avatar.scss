@@ -1,0 +1,20 @@
+.image-center-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  #mich {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 20%;
+    bottom: 80%;
+    z-index: 999;
+    img {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      margin-left: -95px;
+      z-index: 999;
+    }
+  }
+}
