@@ -1,33 +1,40 @@
 .row > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+  padding-right:0;
+  padding-left:0;
+}
+
+
+.container {
+  width: 100vw;
+  padding: none;
+  margin: none;
 }
 
 .banner {
   height: 100vh;
   text-align: center;
-  background-color: #A3A9AA;
-  opacity: 0.8;
+  background-color: $mygrey;
   position: relative;
 }
 
 .name {
   text-align: center;
-  color: #ECE4B7;
+  color: $myred;
   font-size: 20px;
 }
 
 .nav-home {
-  top: 10%;
-  position: relative;
-  font-size: 14px;
-  display: flex;
-  position: relative;
-  text-align: center;
+  display: inline;
   ul {
-    display: inline;
+    float: center;
+    a {
+      text-decoration: none;
+        color: $mywhite;
+    }
   }
 }
+
+
 
 .nav {
   position: relative;
@@ -36,58 +43,6 @@
   text-decoration: none;
 }
 
-.about {
-  background-color: #FB3640;
-  color: white;
-  width: 100%;
-  h3 {
-    text-align: center;
-    position: relative;
-    top: 35%;
-  }
-}
 
-.about-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-}
 
-.about-info {
-  padding-left: 100px;
-}
-
-.experience-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-}
-
-.experience {
-  background-color: #FB3640;
-  color: white;
-  width: 100%;
-  h3 {
-    text-align: center;
-    position: relative;
-    top: 35%;
-  }
-}
-
-.contact-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-}
-
-.contact {
-    background-color: #FB3640;
-  color: white;
-  width: 100%;
-  h3 {
-    text-align: center;
-    position: relative;
-    top: 35%;
-  }
-}
 

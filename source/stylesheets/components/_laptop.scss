@@ -18,10 +18,7 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
   }
-  a, a:hover, a:focus, a:active {
-    text-decoration: none!important;
-    outline: none;
-  }
+
   .npd{
     padding: 0;
   }
@@ -30,10 +27,7 @@
     margin: 0;
     list-style: none;
   }
-  a:hover{
-    opacity: 0.7;
-    color: white;
-  }
+
   body{
     font-size: 14px;
     color: black;
@@ -63,7 +57,7 @@ $codred: #ac5e47;
 .wrap{
   height: 70vh;
   position: relative;
-  background-color: #A3A9AA;
+  background-color: $mygrey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +66,7 @@ $codred: #ac5e47;
   flex-direction: column;
   p {
     font-size: 70px;
-    color: #ECE4B7;
+    color: $myred;
     padding-bottom: 120px
   }
 }

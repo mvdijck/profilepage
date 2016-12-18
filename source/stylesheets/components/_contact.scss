@@ -1,0 +1,87 @@
+.contact-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.contact {
+  background-color: $myred;
+  color: white;
+  width: 100%;
+  h3 {
+    text-align: center;
+    position: relative;
+    top: 35%;
+    font-size: 50px;
+  }
+}
+
+.contact-info {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 100px;
+}
+
+#contact-name {
+  color: $myred;
+  font-size: 20px;
+}
+
+
+.ease-all{
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+/* Social Icons */
+
+.social{
+  height: 10rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.social li a{
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  text-align: center;
+  padding-top: 13px;
+
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -o-border-radius:20px;
+  -ms-border-radius:20px;
+  border-radius:20px;
+
+  /*background-color: #222;*/
+  -webkit-box-shadow: inset 0 0 0 40px #222;
+  -moz-box-shadow: inset 0 0 0 40px #222;
+  -o-box-shadow: inset 0 0 0 40px #222;
+  -ms-box-shadow: inset 0 0 0 40px #222;
+  box-shadow: inset 0 0 0 40px #222;
+
+  color: #fff;
+}
+
+.social li a:hover{
+  -webkit-box-shadow: inset 0 0 0 3px #222;
+  -moz-box-shadow: inset 0 0 0 3px #222;
+  -o-box-shadow: inset 0 0 0 3px #222;
+  -ms-box-shadow: inset 0 0 0 3px #222;
+  box-shadow: inset 0 0 0 3px #222;
+
+  color: #222;
+}
+
+

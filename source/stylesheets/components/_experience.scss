@@ -1,0 +1,29 @@
+.experience-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.experience-info {
+  width: 100%;
+  padding-left: 150px;
+  padding-top: 200px;
+  height: 100vh;
+  background-color: $mywhite;
+  color: $myblack;
+}
+
+.experience {
+  background-color: $mygrey;
+  color: $mywhite;
+  width: 100%;
+  h3 {
+    text-align: center;
+    position: relative;
+    top: 35%;
+    font-size: 50px;
+  }
+}
+
+
